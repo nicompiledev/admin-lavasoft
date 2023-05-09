@@ -1,0 +1,52 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="toggle()">
+    <mat-icon>{{ opened ? 'menu_open' : 'menu' }}</mat-icon>
+  </button>
+
+  <span class="example-spacer"></span>
+  <span>ADMIN LavaSoft</span>
+
+
+</mat-toolbar>
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened #drawer>
+
+    <mat-nav-list role="list">
+      <div mat-subheader class="subheader">Lavaderos</div>
+      <a mat-list-item routerLink="/table">Tabla Lavaderos</a>
+      <mat-list-item role="listitem" mat-button [matMenuTriggerFor]="menuLavadero">Menu Lavaderos
+        <mat-menu #menuLavadero="matMenu">
+          <button mat-menu-item>Catalogo</button>
+          <button mat-menu-item>Reservas</button>
+        </mat-menu></mat-list-item>
+    </mat-nav-list>
+    <mat-divider></mat-divider>
+    <mat-nav-list role="list">
+      <div mat-subheader class="subheader">Usuarios</div>
+      <a mat-list-item routerLink="/table">Tabla Usuarios</a>
+      <mat-list-item role="listitem" mat-button [matMenuTriggerFor]="menuUsuario">Menu Usuarios
+        <mat-menu #menuUsuario="matMenu">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu></mat-list-item>
+    </mat-nav-list>
+    <mat-divider></mat-divider>
+    <mat-nav-list role="list">
+      <div mat-subheader class="subheader">Reservas</div>
+      <a mat-list-item routerLink="/table">Tabla Reservas</a>
+      <mat-list-item role="listitem" mat-button [matMenuTriggerFor]="menuReserva">Menu Reservas
+        <mat-menu #menuReserva="matMenu">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu></mat-list-item>
+    </mat-nav-list>
+    </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+
+
+
+
+  </mat-drawer-content>
+</mat-drawer-container>
+
