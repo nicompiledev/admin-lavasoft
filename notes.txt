@@ -1,0 +1,36 @@
+Secciones principales:
+
+Reservas
+Estadísticas e historial de lavados
+Perfil del lavadero
+
+Subsecciones de la sección "Reservas":
+
+Ver reservas activas
+Agregar una nueva reserva
+Cancelar una reserva
+
+Subsecciones de la sección "Estadísticas e historial de lavados":
+
+Ver estadísticas generales
+Ver historial de lavados
+Filtrar estadísticas e historial por fechas o vehículos específicos
+
+
+Subsecciones de la sección "Perfil del lavadero":
+
+Ver y editar información del lavadero
+Ver y editar información de los empleados
+Ver y editar información de los servicios ofrecidos
+Ver y editar horarios de atención
+
+
+En la página principal de la interfaz, propondría mostrar un resumen de las reservas activas con su estado actual, para que el lavadero pueda tener una vista rápida de su agenda diaria. También se podría incluir un botón de "Agregar reserva" y una sección de "Estadísticas rápidas", donde se muestre la cantidad de vehículos lavados ese día, la cantidad de reservas canceladas, etc.
+
+En la página de "Ver reservas activas", se podrían mostrar las reservas de manera detallada, con información como el nombre del cliente, el servicio agendado, la hora y fecha de la reserva y su estado actual. También se podrían incluir opciones para cambiar el estado de la reserva y para cancelarla.
+
+En la página de "Agregar una nueva reserva", se deberían incluir campos para ingresar la información del cliente y del vehículo, así como para seleccionar el servicio deseado y la fecha y hora de la reserva.
+
+En la sección de "Estadísticas e historial de lavados", se podría mostrar una gráfica de barras con la cantidad de vehículos lavados por día en la última semana o mes, así como tablas con información detallada de cada lavado realizado. También se deberían incluir opciones para filtrar la información por fechas o vehículos específicos.
+
+En la sección de "Perfil del lavadero", se podrían incluir campos para editar la información del lavadero y de los empleados, así como opciones para agregar o eliminar servicios ofrecidos y para modificar los horarios de atención. También se debería incluir un botón para solicitar cambios en la información del lavadero al administrador del software.
